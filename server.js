@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     )
 })
 
-// Place /0 route before :number_of_bottles params in order to take priority over params route
+// Place /0 route before :number_of_bottles params in order to /0 route take priority over :number_of_bottles params route
 app.get("/0", (req, res) => {
     res.send(
         `There are 0 bottles left, and ya'll 🤪🤪🤪
